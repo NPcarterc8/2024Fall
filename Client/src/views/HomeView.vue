@@ -3,7 +3,7 @@
 
 <template>
   <main>
-    <h1>jfldsn,</h1>
-    <p>flkndsa</p>
+    <h1>home</h1>
+    <p>welcome to your vue.js app!</p>
   </main>
 </template>
