@@ -29,17 +29,20 @@ const isOpen = ref(false)
         <div class="navbar-start">
           <RouterLink to="/" class="navbar-item">Home</RouterLink>
           <RouterLink to="/about" class="navbar-item">About</RouterLink>
-          <a class="navbar-item"> Home </a>
-
-          <a class="navbar-item"> Documentation </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link"> More </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item"> About </a>
-              <a class="navbar-item is-selected"> Jobs </a>
-              <a class="navbar-item"> Contact </a>
+              <RouterLink to="/about" class="navbar-item">
+                <a class="navbar-item"> About </a>
+              </RouterLink>
+              <RouterLink to="/jobs" class="navbar-item">
+                <a class="navbar-item is-selected"> Jobs </a>
+              </RouterLink>
+              <RouterLink to="/contact" class="navbar-item">
+                <a class="navbar-item"> Contact </a>
+              </RouterLink>
               <hr class="navbar-divider" />
               <a class="navbar-item"> Report an issue </a>
             </div>
@@ -61,4 +64,9 @@ const isOpen = ref(false)
   </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+.router-link-active {
+  background-color: blue;
+  border-bottom: 2px solid blue;
+}
+</style>
