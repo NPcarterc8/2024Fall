@@ -1,8 +1,11 @@
 <script setup lang="ts"></script>
+
 <template>
-  <div class="about">
-    <h1>This is an jobs page</h1>
+  <div>
+    <h1 class="title">The Jobs Page</h1>
+    <h2 class="subtitle">This is an example of a jobs page</h2>
+    <p>Here is a list of jobs</p>
   </div>
 </template>
 
-<style></style>
+<style scoped></style>

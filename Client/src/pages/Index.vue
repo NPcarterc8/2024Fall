@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <h1>home</h1>
-    <p>welcome to your vue.js app!</p>
+    <h1>Home</h1>
+    <p>Welcome to your Vue.js app!</p>
   </main>
 </template>

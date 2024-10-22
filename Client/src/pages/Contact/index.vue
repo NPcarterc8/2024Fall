@@ -1,17 +1,39 @@
 <script setup lang="ts"></script>
+
 <template>
-  <div class="about">
-    <h1>This is an Contact us page</h1>
-    <form action="">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" />
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
-      <input type="submit" value="Submit" />
+  <div>
+    <h1 class="title">Contact Us</h1>
+    <h2 class="subtitle">We'd love to hear from you</h2>
+
+    <form>
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Your name" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="Your email" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Your message"></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="control">
+          <button class="button is-primary">Submit</button>
+        </div>
+      </div>
     </form>
   </div>
 </template>
 
-<style></style>
+<style scoped></style>
