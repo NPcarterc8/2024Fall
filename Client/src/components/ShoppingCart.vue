@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { refCart, count, total } from '@/models/shoppingCart'
+import { refCart, count, total, removeFromCart } from '@/models/shoppingCart'
 
 const cart = refCart()
 </script>
