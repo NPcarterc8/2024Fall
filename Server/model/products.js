@@ -1,6 +1,3 @@
-/*  B"H
- */
-
 /** @type {{ items: Product[] }} */
 const data = require("../data/products.json");
 
